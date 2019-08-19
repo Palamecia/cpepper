@@ -1,0 +1,69 @@
+/* selection-background-color: #98ff98;*/
+
+QWidget {
+	background-color: #2e2f30;
+	color: white;
+}
+
+QStatusBar {
+	background-color: #1e1f20;
+}
+
+QMenu {
+	selection-background-color: #012b43;
+	border: 1px solid #202020;
+}
+
+QMenu::item:disabled {
+	color: gray;
+}
+
+QMenuBar::item:hover {
+	background-color: #012b43;
+}
+
+QMenuBar::item:selected {
+	background-color: #012b43;
+}
+
+QMenuBar::item:disabled {
+	color: gray;
+}
+
+QAction:hover {
+	background-color: #012b43;
+}
+
+QAction:disabled {
+	color: gray;
+}
+
+QScrollBar::handle {
+	background-color: gray;
+	color: gray;
+	border-radius: 4px;
+	margin: 4px;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+	border: none;
+}
+
+QTreeView {
+	selection-background-color: #012b43;
+	selection-color: white;
+	border: none;
+	color: white;
+}
+
+QTreeView::item {
+	color: white;
+}
+
+QTreeView::item:selected {
+	color: white;
+}
+
+QPlainTextEdit {
+	border: none;
+}
